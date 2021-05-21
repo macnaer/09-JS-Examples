@@ -55,17 +55,17 @@ const Err = () => console.log("Arrow finctions Err works");
 //     console.log("Annonymous: ", (a / b));
 // }(10, 2))
 
-function Person(first, last, age) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.Print = function () {
-        console.log(`Name: ${this.firstName}\nSurname: ${this.lastName}\nAge: ${this.age}`)
-    }
-}
+// function Person(first, last, age) {
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//     this.Print = function () {
+//         console.log(`Name: ${this.firstName}\nSurname: ${this.lastName}\nAge: ${this.age}`)
+//     }
+// }
 
-const Bill = new Person("Bill", "Simpson", 56);
-Bill.Print();
+// const Bill = new Person("Bill", "Simpson", 56);
+// Bill.Print();
 
-const Bob = new Person("Bob", "Simpson", 34);
-Bob.Print();
+// const Bob = new Person("Bob", "Simpson", 34);
+// Bob.Print();

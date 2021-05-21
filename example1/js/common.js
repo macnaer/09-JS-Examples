@@ -23,12 +23,20 @@ function GetPerson(event) {
     surname.value = ""
     age.value = ""
 
-    Persons.forEach(person => {
-        person.Print();
-    })
-
+    // Persons.forEach(person => {
+    //     person.Print();
+    // })
     console.log(Persons.length)
+    Render();
+
 }
 
+const Render = () => {
+    let root = document.getElementById("root");
+    let div = document.createElement("div");
+    div.setAttribute("class", "test, test2");
+    div.innerHTML = Persons[0].name;
+    root.appendChild(div);
+}
 
 
